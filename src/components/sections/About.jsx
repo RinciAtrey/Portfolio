@@ -5,25 +5,31 @@ export const About=()=>{
     const frontendSkills = [
         "Flutter",
         "React",
-        "TailwindCSS"
+        "TailwindCSS",
+        "XML",
+        "Android Development"
     ]
 
      const backendSkills = [
         "Springboot",
         "PostgresSQL",
+        "Redis"
     ]
 
     return (<section id="about"
     className="min-h-screen flex items-center justify-center py-20">
         <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center ">
+            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center font-mono">
                 {" "}
                 About Me</h2>
 
                 <div className="rounded-xl p-8 border-white/70 border hover:-translate-y-1 transition-all">
-                    <p className="text-gray-300 mb-6">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quia rerum nulla laborum deserunt vel accusantium cum quibusdam, dolor cumque?
+                    <p className="text-gray-300 mb-6 flex items-center justify-center">
+                       I am someone who loves turning ideas into real world software applications.
+                    </p>
+                    <p className="text-gray-300 flex items-center justify-center">
+                       These are my skills.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -66,7 +72,7 @@ export const About=()=>{
                             <strong>B.Tech in Information Technology</strong> - SATI (2022-2026)
                         </li>
                          <li>
-                            <strong>Relevant course work</strong> - SATI (2022-2026)
+                            <strong>Senior Secondary - (XII)</strong> - GVN - The Global School 
                         </li>
                     </ul>
                 </div>
@@ -74,10 +80,14 @@ export const About=()=>{
                     <h3 className="text-xl font-bold mb-4">Work Experience</h3>
                     <div className="space-y-4 text-gray-300">
                         <div>
-                            <h4>Backend Internship</h4>
+                            <h4>Docxito | Backend Intern</h4>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                Contributed to the development of industrial-grade backend systems using Spring Boot.
                             </p>
+                            <div className="mt-4">
+                            <a href="https://drive.google.com/file/d/1fzBHOvhaELvVyjm7kXUxn41jqMZMVP75/view?usp=drivesdk"
+                            className="text-blue-400 hover:text-blue-300 transition-colors my-4 mt-4">View Certificate</a>
+                            </div>
                         </div>
                     </div>
                 </div>
